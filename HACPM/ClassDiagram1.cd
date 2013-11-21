@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HACPM.Validators.BaseValidator" Collapsed="true">
+    <Position X="10.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAACAAAgABAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Validators\BaseValidator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HACPM.Validators.FiscalYearValidator" Collapsed="true">
+    <Position X="10.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Validators\FiscalYearValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HACPM.Validators.AccountSegmentValidator" Collapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Validators\AccountSegmentValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HACPM.Validators.IsNumericValidator" Collapsed="true">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validators\IsNumericValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HACPM.StringTemplateFormatter">
+    <Position X="4.25" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAEAQAAAAAAAAAAAAAABAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>TemplateProcessors\StringTemplateFormatter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HACPM.BaseDataLoadProcessor" Collapsed="true">
+    <Position X="0.75" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAgAAAAAAAAAgAAAAQAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>DataLoad\BaseDataLoadProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HACPM.GLDataProcessor">
+    <Position X="0.5" Y="3.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAACACAAAAACAAAAAAAAAAAAAAgAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>GL Data\GLDataProcessor.cs</FileName>
+      <NewMemberFileName>DataLoad\GLDataProcessor.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="HACPM.Validators.IValidator">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Validators\IValidator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HACPM.ITemplateFormatter">
+    <Position X="4.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAABAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>TemplateProcessors\ITemplateFormatter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HACPM.IDataLoadProcessor">
+    <Position X="0.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataLoad\IDataLoadProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
